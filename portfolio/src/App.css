@@ -24,6 +24,11 @@
   color: white;
 }
 
+.Thumbnail-collection {
+  display: inline-flex;
+  justify-content: 'space-between';
+}
+
 .App-link {
   color: #61dafb;
 }
