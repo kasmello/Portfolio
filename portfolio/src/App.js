@@ -2,10 +2,11 @@ import logo from './logo.svg';
 import RoundedCard from './hypercard';
 import HearMeThumbnail from './hearmethumbnail.png'
 import MapMeThumbnail from './mapmethumbnail.png'
+import React from 'react'
 import './App.css';
 
 function App() {
-
+  document.title = "Karmel's Portfolio"
 
   return (
     <div>
