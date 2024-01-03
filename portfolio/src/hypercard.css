@@ -1,11 +1,11 @@
 .rounded-card {
   position: relative;
-  width: 15vw;
+  width: 400px;
   height: auto;
   border-radius: 15px;
   overflow: hidden;
   cursor: pointer;
-  margin-right: 5px;
+  margin-right: 10px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .rounded-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .rounded-card:hover .content {

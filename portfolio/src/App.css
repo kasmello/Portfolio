@@ -38,7 +38,7 @@
 .Background-theme {
   background-color: #474449;
   height: 80vh;
-  margin-top: -2.2vh;
+  margin-top: -26px;
   padding: 0;
   color:rgb(255, 255, 255);
 
@@ -50,7 +50,7 @@
   background-position: center center; 
   color:rgba(0, 0, 0, 0.738);
   /* background-color: #f1ebd8; */
-  margin-top: -8vh;
+  margin-top: -55px;
   margin-bottom: 0;
 
 
