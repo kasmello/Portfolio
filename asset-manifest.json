@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.63c43af7.css",
-    "main.js": "/Portfolio/static/js/main.b48cda0a.js",
+    "main.css": "/Portfolio/static/css/main.aebad0aa.css",
+    "main.js": "/Portfolio/static/js/main.a28167b5.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Yellow Cloud.jpg": "/Portfolio/static/media/Yellow Cloud.7587ca57178c3403ee44.jpg",
     "static/media/hearmethumbnail.png": "/Portfolio/static/media/hearmethumbnail.b7f245e0acc7f5925beb.png",
     "static/media/mapmethumbnail.png": "/Portfolio/static/media/mapmethumbnail.98c5c572abd167fc50f4.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.63c43af7.css.map": "/Portfolio/static/css/main.63c43af7.css.map",
-    "main.b48cda0a.js.map": "/Portfolio/static/js/main.b48cda0a.js.map",
+    "main.aebad0aa.css.map": "/Portfolio/static/css/main.aebad0aa.css.map",
+    "main.a28167b5.js.map": "/Portfolio/static/js/main.a28167b5.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63c43af7.css",
-    "static/js/main.b48cda0a.js"
+    "static/css/main.aebad0aa.css",
+    "static/js/main.a28167b5.js"
   ]
 }
