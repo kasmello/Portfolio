@@ -4,6 +4,7 @@ import HearMeThumbnail from './hearmethumbnail.png'
 import MapMeThumbnail from './mapmethumbnail.png'
 import React from 'react'
 import { isMobile } from 'react-device-detect';
+import parse from 'html-react-parser'
 import './App.css';
 
 function App() {
@@ -11,7 +12,11 @@ function App() {
   return (
     <div>
       <div className='Header'>
-        <h1 style={{marginLeft: '4vw', paddingTop: '100px', fontFamily: 'EB Garamond, serif',fontSize: isMobile ? '2em' : '5em'}}>Joannes Karmel Gandahusada</h1>
+        <h1 style={{
+          marginLeft: '4vw', 
+          paddingTop: '100px', 
+          fontFamily: 'EB Garamond, serif',
+          fontSize: isMobile ? '2em' : '5em'}}>Joannes Karmel Gandahusada</h1>
         <h3 style={{marginLeft: '6vw', paddingBottom: '40px', fontFamily: 'EB Garamond, serif',fontSize: isMobile? '1em' : '1.5em'}}>Data Scientist/Fullstack Developer/AI Engineer</h3>
       </div>
       <div className='Background-theme'>
@@ -27,7 +32,7 @@ function App() {
           <RoundedCard
             imageSrc={MapMeThumbnail}
             label="MapMe"
-            description="An app designed to plan appropriate fod/fuel stops on road trips - <i>IN PROGRESS</i>"
+            description={parse('An app designed to plan appropriate fod/fuel stops on road trips - <i>IN PROGRESS</i>')}
             link="https://kasmello.github.io/MapMe/"
           />
         </div>

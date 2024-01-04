@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { isMobile } from 'react-device-detect';
 import './hypercard.css';
 
 const RoundedCard = ({ imageSrc, label, description, link }) => {
@@ -22,12 +23,12 @@ const RoundedCard = ({ imageSrc, label, description, link }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
-      style={{marginRight: '1.2vh'}}
+      style={{width: isMobile ? '43vw': '400px'}}
     >
       <img src={imageSrc} alt={label} />
-      {/* <div className="content">
+      <div className="content">
         <h3>{isHovered ? description : label}</h3>
-      </div> */}
+      </div>
     </div>
   );
 };

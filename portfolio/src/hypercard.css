@@ -1,6 +1,5 @@
 .rounded-card {
   position: relative;
-  width: 400px;
   height: auto;
   border-radius: 15px;
   overflow: hidden;
@@ -19,11 +18,12 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 10%;
+  width: 100%;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 0.7em;
+  background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
-  transition: opacity 0.3s ease-in-out;
+  /* transition: opacity 0.3s ease-in-out; */
 }
 
 .rounded-card h3 {
@@ -34,6 +34,6 @@
   transform: scale(1.03);
 }
 
-.rounded-card:hover .content {
+/* .rounded-card:hover .content {
   opacity: 0;
-}
+} */
