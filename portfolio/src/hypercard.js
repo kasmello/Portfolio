@@ -23,7 +23,7 @@ const RoundedCard = ({ imageSrc, label, description, link }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
-      style={{width: isMobile ? '43vw': '400px'}}
+      style={{width: isMobile ? '42vw': '400px', height: isMobile ? '14vh': '250px'}}
     >
       <img src={imageSrc} alt={label} />
       <div className="content">
