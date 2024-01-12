@@ -25,24 +25,22 @@
 }
 
 .Thumbnail-collection {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: 'space-between';
   margin-top: 3vh;
   margin-left: 4vw;
+  width: 90vw;
+  height: 500px;
+
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.Background-theme {
-  background-color: #474449;
-  height: 80vh;
-  margin-top: -26px;
-  padding: 0;
-  color:rgb(255, 255, 255);
 
-}
 
 .Header {
   position: relative;
@@ -54,8 +52,20 @@
   /* background-color: #f1ebd8; */
   margin-top: -55px;
   margin-bottom: 0;
+  z-index: 1;
 
 
+}
+
+.Background-theme {
+  background-color: #474449;
+  position: relative;
+  border-radius: 20px;
+  height: 100vh;
+  margin-top: -40px;
+  padding: 0;
+  color:rgb(255, 255, 255);
+  z-index: 2;
 }
 
 
