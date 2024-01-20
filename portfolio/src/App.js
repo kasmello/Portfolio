@@ -4,6 +4,7 @@ import HearMeThumbnail from './hearmethumbnail.png'
 import MapMeThumbnail from './mapmethumbnail.png'
 import CyberThumbnail from './cyberthumb.png'
 import WhaleThumbnail from './whalethumb.png'
+import PriceThumbnail from './pricethumb.png'
 import CCThumbnail from './ccthumb.png'
 import CyberPDF from './cybersecurityml.pdf'
 import WhalePDF from './humpbacknn.pdf'
@@ -40,6 +41,12 @@ function App() {
             label="MapMe"
             description={parse('An <i>Angular</i> app designed to plan appropriate fod/fuel stops on road trips. Write down your destinations and rearrange them! <i>IN PROGRESS</i>')}
             link="https://kasmello.github.io/MapMe/"
+          />
+          <RoundedCard
+            imageSrc={PriceThumbnail}
+            label="PriceTracker"
+            description={parse('A <i>React</i> app designed to track the price of items. Currently only tracking fuel from fuelwatch.wa.gov.au. <i>IN PROGRESS</i>')}
+            link="https://kasmello.github.io/PriceTracker/"
           />
           <RoundedCard
             imageSrc={WhaleThumbnail}
