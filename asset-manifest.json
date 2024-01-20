@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d6cadda2.css",
-    "main.js": "/Portfolio/static/js/main.98438b58.js",
+    "main.css": "/Portfolio/static/css/main.027f5062.css",
+    "main.js": "/Portfolio/static/js/main.7e02c0cc.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/humpbacknn.pdf": "/Portfolio/static/media/humpbacknn.494878f29a53338c6176.pdf",
     "static/media/ccda.pdf": "/Portfolio/static/media/ccda.5cb4cebcb626f2b2e433.pdf",
@@ -9,17 +9,18 @@
     "static/media/cyberthumb.png": "/Portfolio/static/media/cyberthumb.5932bf3af48105583a36.png",
     "static/media/cybersecurityml.pdf": "/Portfolio/static/media/cybersecurityml.5c87e851f966af7b3665.pdf",
     "static/media/whalethumb.png": "/Portfolio/static/media/whalethumb.27c284cc14247b9ed7ac.png",
+    "static/media/pricethumb.png": "/Portfolio/static/media/pricethumb.6df46e3ef5ab45cc3bf6.png",
     "static/media/hearmethumbnail.png": "/Portfolio/static/media/hearmethumbnail.b7f245e0acc7f5925beb.png",
     "static/media/ccthumb.png": "/Portfolio/static/media/ccthumb.c494509cdba2c6f10578.png",
     "static/media/mapmethumbnail.png": "/Portfolio/static/media/mapmethumbnail.98c5c572abd167fc50f4.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.d6cadda2.css.map": "/Portfolio/static/css/main.d6cadda2.css.map",
-    "main.98438b58.js.map": "/Portfolio/static/js/main.98438b58.js.map",
+    "main.027f5062.css.map": "/Portfolio/static/css/main.027f5062.css.map",
+    "main.7e02c0cc.js.map": "/Portfolio/static/js/main.7e02c0cc.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6cadda2.css",
-    "static/js/main.98438b58.js"
+    "static/css/main.027f5062.css",
+    "static/js/main.7e02c0cc.js"
   ]
 }
