@@ -39,7 +39,7 @@ function App() {
           <RoundedCard
             imageSrc={MapMeThumbnail}
             label="MapMe"
-            description={parse('An <i>Angular</i> app designed to plan appropriate fod/fuel stops on road trips. Write down your destinations and rearrange them! <i>IN PROGRESS</i>')}
+            description={parse('An <i>Angular</i> app designed to plan appropriate food/fuel stops on road trips. Write down your destinations and rearrange them! <i>IN PROGRESS</i>')}
             link="https://kasmello.github.io/MapMe/"
           />
           <RoundedCard
@@ -51,7 +51,7 @@ function App() {
           <RoundedCard
             imageSrc={WhaleThumbnail}
             label="Neural Networks for Humback Audio Classification"
-            description={parse('My Honours academic <i>paper</i> which looked into<br><i>transformers</i> and <i>neural networks</i> using <i>Python</i> to detect different Humback Whale vocalisations.')}
+            description={parse('My Honours academic <i>paper</i> which looked into <i>transformers</i> and <i>neural networks</i> using <i>Python</i> to detect different Humback Whale vocalisations.')}
             link={WhalePDF}
           />
           <RoundedCard
